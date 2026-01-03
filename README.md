@@ -467,3 +467,7 @@ These functionalities define **how the system should behave**.
 ## 5. Documentation Note
 All functionalities are designed to remain client-safe and confidential.  
 No proprietary workflows or sensitive business data are documented.
+
+
+### date - 3/01/2026
+worked on designing the ui and hero section of the website 
