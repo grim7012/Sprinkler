@@ -471,3 +471,7 @@ No proprietary workflows or sensitive business data are documented.
 
 ### date - 3/01/2026
 worked on designing the ui and hero section of the website 
+
+### date - 4/01/2026
+completed the ui designing of the hero section in figma 
+
