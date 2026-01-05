@@ -475,3 +475,5 @@ worked on designing the ui and hero section of the website
 ### date - 4/01/2026
 completed the ui designing of the hero section in figma 
 
+### date - 5/01/2026
+updating the ui designing of the hero section in figma 
