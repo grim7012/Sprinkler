@@ -477,3 +477,7 @@ completed the ui designing of the hero section in figma
 
 ### date - 5/01/2026
 updating the ui designing of the hero section in figma 
+
+
+### date - 15/01/2026
+\
