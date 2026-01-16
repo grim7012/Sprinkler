@@ -483,3 +483,6 @@ updating the ui designing of the hero section in figma
 \
 ### date - 16/01/2026
 \
+
+### date - 17/01/2026
+\
