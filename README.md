@@ -464,6 +464,7 @@ These functionalities define **how the system should behave**.
 
 ---
 
+
 ## 5. Documentation Note
 All functionalities are designed to remain client-safe and confidential.  
 No proprietary workflows or sensitive business data are documented.
