@@ -176,6 +176,7 @@ To build a professional, accessible, and trust-driven website that showcases irr
 
 ---
 
+
 ### 2.4 Dealer & Distributor Section
 - Dedicated “Become a Dealer / Distributor” page
 - Business inquiry form
