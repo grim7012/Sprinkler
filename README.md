@@ -7,7 +7,6 @@ Confidential manufacturing website (HDPE drip & sprinkler irrigation products)
 ## My Role
 Web Developer
 
-
 ## Objective
 Build a professional, responsive website to showcase products and enable customer inquiries.
 
