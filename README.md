@@ -8,7 +8,6 @@ Web Developer
 ## Objective
 Build a professional, responsive website to showcase products and enable customer inquiries.
 ---
-
 ## Initial Thoughts
 - First impressions about the project
 - What excites me
