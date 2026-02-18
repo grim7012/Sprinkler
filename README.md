@@ -25,42 +25,43 @@ The platform communicates:
 **Primary audience:**
 - Distributors & Dealers
 - Institutional Buyers
-- Technical Evaluators
-- Procurement Teams
 
 This is a fully frontend, inquiry-driven website built with **Next.js** and **TypeScript**, styled with **Tailwind CSS**.
 
 ---
-
-## 🎯 Problem Statement
-
-Industrial manufacturing websites often struggle with:
-
-- Dense technical documentation
-- Poor content hierarchy
-- Long-scroll specification overload
-- Weak visual identity
-- Low product discoverability
-
-Users evaluating irrigation systems require:
-- Quick product understanding
-- Structured access to specifications
-- Clear comparison ability
-- Trust reinforcement
-
-The challenge was to design a system that organizes complex product information without reducing technical depth.
-
+| **Category** | **Details** |
+|--------------|-------------|
+| **🎯 Problem Statement** | Industrial manufacturing websites struggle with complex information architecture and user experience challenges |
+| **Common Website Issues** | • Dense technical documentation<br>• Poor content hierarchy<br>• Long-scroll specification overload<br>• Weak visual identity<br>• Low product discoverability |
+| **User Requirements** (Irrigation System Evaluators) | • Quick product understanding<br>• Structured access to specifications<br>• Clear comparison ability<br>• Trust reinforcement |
+| **Design Challenge** | Organize complex product information without reducing technical depth |
 ---
 
-## 🧠 Design Goals
+## 🖼️ Design Preview
 
-1. Improve information hierarchy
-2. Reduce cognitive overload
-3. Elevate industrial brand perception
-4. Maintain structured technical documentation
-5. Support inquiry-based B2B conversion
+<div align="center">
+  
+### Homepage – Industrial Clarity
+<img src="/screenshots/homepage.png" alt="Homepage - Industrial Design" width="800" />
+<p><em>Clean hierarchy, restrained color palette, immediate brand positioning</em></p>
 
----
+### Product Catalog – Structured Discovery
+<img src="/screenshots/catalog.png" alt="Product Catalog" width="800" />
+<p><em>Category-level navigation with clear visual separation</em></p>
+
+### Product Detail – Modular Technical Layout
+<img src="/screenshots/product-detail.png" alt="Product Detail Page" width="800" />
+<p><em>Tab-based segmentation: Overview • Components • Specifications • Applications • Resources</em></p>
+
+### Technical Specifications – Readable Data
+<img src="/screenshots/specifications.png" alt="Specifications Table" width="800" />
+<p><em>Structured tables with strong typographic hierarchy</em></p>
+
+### Mobile View – Accessible, Desktop-Optimized
+<img src="/screenshots/mobile.png" alt="Mobile Responsive" width="300" />
+<p><em>Full responsive accessibility, optimized for technical evaluation</em></p>
+
+</div>
 
 ## 🗂 Information Architecture
 
@@ -68,7 +69,7 @@ The product catalog follows a hierarchical structure:
 
 ```
 Category Level (Drip / Sprinkler / Fittings)
-    ↓
+    ↓ 
 Product Family Level
     ↓
 Variant Level
@@ -77,7 +78,6 @@ Specification Module
     ↓
 Application Context
 ```
-
 Technical information was modularized instead of stacked vertically. This improves scan efficiency and reduces evaluation fatigue.
 
 ---
@@ -132,39 +132,6 @@ This respects B2B research behavior — users explore first, inquire later.
 
 Color usage is restrained to maintain authority and avoid visual noise.
 
-### Typography
-- **Serif accents** – Product authority
-- **Clean sans-serif** – Technical readability
-- **Strong contrast** – Clear hierarchy between headings and data tables
-
-### Implementation
-```tsx
-// Tailwind configuration for consistent spacing
-module.exports = {
-  theme: {
-    extend: {
-      spacing: { /* Consistent modular scale */ },
-      colors: { /* Industrial palette */ }
-    }
-  }
-}
-```
-
----
-
-## ✨ Interaction Design
-
-Micro-interactions are intentionally subtle:
-
-- Button elevation on hover
-- Smooth tab transitions
-- Controlled hover scaling (1.02x)
-- Lightweight fade-in animations
-
-Performance was prioritized over decorative motion.
-
----
-
 ## 📱 Responsiveness
 
 The website is fully responsive across screen sizes. However, due to the depth of technical data and structured tab layouts, the experience is optimized for desktop-first evaluation.
@@ -172,34 +139,6 @@ The website is fully responsive across screen sizes. However, due to the depth o
 Mobile responsiveness ensures accessibility, but full mobile-first interaction optimization remains an area for future refinement. This tradeoff was intentional to preserve specification clarity.
 
 ---
-
-## 🛡 Trust & Brand Positioning
-
-Trust is reinforced through:
-
-- Structured content hierarchy
-- Certification highlights
-- Industrial tone of voice
-- Clean spacing discipline
-- Non-aggressive conversion design
-
----
-
-## 🛠 Technology Stack
-
-```tsx
-// pages/index.tsx - Built with Next.js + TypeScript
-import { ProductGrid } from '@/components/ProductGrid'
-import type { Product } from '@/types'
-
-export default function Home() {
-  return (
-    <div className="container mx-auto px-4">
-      <ProductGrid products={productData} />
-    </div>
-  )
-}
-```
 
 | Technology | Application |
 |------------|-------------|
@@ -222,30 +161,67 @@ export default function Home() {
 
 ---
 
-## 🧩 Tools Used
+## 🧩 **UX Strategy: Where Engineering Meets Empathy**
 
-- **Figma** – UI System & Prototyping
-- **Next.js** – Frontend Framework
-- **TypeScript** – Type Safety
-- **Tailwind CSS** – Styling
+### **1️⃣ Modular Technical Layout**
+Product detail pages use tab-based segmentation because **nobody reads top-to-bottom anymore**:
+
+| Tab | What's Inside | Why It Matters |
+|-----|---------------|----------------|
+| 📋 **Overview** | The elevator pitch | "Tell me why I should care" |
+| 🔧 **Components** | What's in the box | Engineers love lists |
+| 📊 **Specifications** | All the numbers | Comparison-ready data |
+| 🌱 **Applications** | Where this thing works | "Will it work for MY farm?" |
+| 📚 **Resources** | Docs, manuals, CAD files | For the deep divers |
+
+> *"Preserves engineering depth. Improves scannability. Separates the curious from the serious."*
+
 ---
 
-## 💡 Key Takeaway
 
-This project demonstrates the ability to translate technically dense industrial products into a structured digital experience that improves usability, discoverability, and brand perception without compromising engineering credibility.
+## 📱 **Responsive Note: Desktop-First, Mobile-Aware**
+
+The website is fully responsive, but here's the honest truth:
+
+> *"Due to technical data depth, the experience is optimized for desktop-first evaluation. Mobile ensures accessibility; desktop ensures clarity."*
+
+**Tradeoff explained:** You can spec irrigation on your phone, but you *should* do it on a laptop. We optimized for the right use case.
 
 ---
 
-## 📬 Contact
+## 📊 **What This Project Demonstrates**
 
 <div align="center">
   
-**Project Inquiries:** [harshch002@gmail.com](mailto:harshch002@gmail.com)  
-**Portfolio:** [Portfolio](https://beamish-hotteok-7f7e29.netlify.app/)  
-**GitHub:** [@grim7012](https://github.com/grim7012)
+| Skill | Applied |
+|-------|---------|
+| 🏗️ Information Architecture | Complex products → Simple structure |
+| 📝 Technical Documentation | Walls of text → Modular specs |
+| 🎨 Industrial UI Design | Generic → Authoritative |
+| 🤝 B2B UX Strategy | Clicks → Qualified inquiries |
+| ⚡ Frontend Performance | Next.js + Tailwind = Fast |
+| 🔤 TypeScript | Type-safe everything |
+
+</div>
+
+---
+
+## 💡 **Key Takeaway**
+
+> *"This project translates technically dense industrial products into a structured digital experience that improves usability, discoverability, and brand perception without compromising engineering credibility."*
+
+**Translation:** Engineers can nerd out on specs. Buyers can find what they need. Everyone wins.
+
+
+## 📬 **Let's Talk Irrigation (or Code)**
+
+<div align="center">
+  
+**Need a B2B website?** [You know where to find me](https://grim7012.dev)  
+**Just here for the specs?** [GitHub repo](https://github.com/grim7012/Sprinkler)
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2b5e2b,100:1a3a1a&height=80&section=footer&text=HDPE%20Irrigation%20Systems&fontSize=16&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2b5e2b,100:1a3a1a&height=80&section=footer&text=🌱%20Irrigation%20done%20right&fontSize=20&fontColor=ffffff" />
 
 </div>
