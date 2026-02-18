@@ -1,6 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waven&color=0:2b5e2b,100:1a3a1a&height=150&section=header&text=HDPE%20Irrigation%20Systems&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=B2B%20Product%20Design%20%26%20Information%20Architecture&descSize=16" />
-</div>
+   # 🌿 HDPE Irrigation Systems
+  
+  ### B2B Product Design & Information Architecture Case Study
+  </br>
+  </div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
@@ -42,24 +45,20 @@ This is a fully frontend, inquiry-driven website built with **Next.js** and **Ty
 <div align="center">
   
 ### Homepage – Industrial Clarity
-<img src="/screenshots/homepage.png" alt="Homepage - Industrial Design" width="800" />
+<img src="/screenshots/gdv1.png" alt="Homepage - Industrial Design" width="800" />
 <p><em>Clean hierarchy, restrained color palette, immediate brand positioning</em></p>
 
 ### Product Catalog – Structured Discovery
-<img src="/screenshots/catalog.png" alt="Product Catalog" width="800" />
+<img src="/screenshots/product-detail.png" alt="Product Detail" width="800" />
 <p><em>Category-level navigation with clear visual separation</em></p>
 
 ### Product Detail – Modular Technical Layout
-<img src="/screenshots/product-detail.png" alt="Product Detail Page" width="800" />
+<img src="/screenshots/tab-view.png" alt="Product Detail Page" width="800" />
 <p><em>Tab-based segmentation: Overview • Components • Specifications • Applications • Resources</em></p>
 
 ### Technical Specifications – Readable Data
-<img src="/screenshots/specifications.png" alt="Specifications Table" width="800" />
-<p><em>Structured tables with strong typographic hierarchy</em></p>
-
-### Mobile View – Accessible, Desktop-Optimized
-<img src="/screenshots/mobile.png" alt="Mobile Responsive" width="300" />
-<p><em>Full responsive accessibility, optimized for technical evaluation</em></p>
+<img src="/screenshots/product-group.png" alt="Product-spec" width="800" />
+<p><em>Product Group display</em></p>
 
 </div>
 
