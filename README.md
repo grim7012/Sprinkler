@@ -225,3 +225,4 @@ The website is fully responsive, but here's the honest truth:
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:2b5e2b,100:1a3a1a&height=80&section=footer&text=🌱%20Irrigation%20done%20right&fontSize=20&fontColor=ffffff" />
 
 </div>
+
